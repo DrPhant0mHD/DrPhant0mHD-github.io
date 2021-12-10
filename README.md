@@ -178,5 +178,5 @@ Underscores
 ## YouTube Videos 
 
 <a href="https://www.youtube.com/watch?v=o5g-lUuFgpg
-" target="_blank"><img src="http://img.youtube.com/vi/o5g-lUuFgp/0.jpg" 
+" target="_blank"><img src="http://img.youtube.com/vi/lUuFgp/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
