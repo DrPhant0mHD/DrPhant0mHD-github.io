@@ -1,0 +1,192 @@
+
+
+
+
+body{
+  max-width: 1500px;
+  margin: 0 auto 0 auto;
+  font-family: 'Roboto', sans-serif;
+    background-color: #29292a ;
+    
+}
+::selection {
+  background: rgb(241, 13, 192);
+} 
+.banner{
+    margin-top: 10px;
+    text-align: center; 
+    color: #b5ec46; 
+    font-size: 4.5rem;
+    background-color: #434344 ;
+}
+
+
+.about-age{
+  text-align:center;
+  color:  white;
+  font-size: 2rem;
+  background-color: #434344 ;
+  
+}
+
+#age-value{
+   display: inline-block;
+    width: 220px;
+    text-align: right;
+    color: #b5ec46;
+    
+}
+.projects-title{
+  margin-top: 10px;
+  text-align: center; 
+  color: #b5ec46; 
+  font-size: 3rem;
+  background-color: #434344 ;
+}
+
+.sub-title{
+  margin-top: 10px;
+  text-align: center; 
+  color: #b5ec46; 
+  font-size: 2rem;
+  background-color: #434344 ;
+}
+
+.categories{
+  text-align: center; 
+  color: #b5ec46; 
+  font-size: 2rem;
+  background-color: #434344 ;
+}
+
+.categories .categorie-button{
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  background-color: #434344 ;
+  justify-content: space-between;
+
+}
+
+
+.pagination{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+  box-shadow: 0px 4px 8px 0px rgba(31, 41, 55, 0.14);
+  
+  background-color: #434344 ;
+  
+}
+
+
+
+.pagination-number {
+  
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  background-color: #434344 ;
+  justify-content: space-between;
+}
+
+.pagination-number-active{
+  color: #000000;
+}
+
+.footer{
+  background-color: #434344 ;
+  text-align: center;
+  color: #b5ec46;
+
+}
+
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px auto 0px auto;
+}
+
+.card{
+  margin: 1.5%;
+  width: 30%;
+  text-align: center;
+  border: 1px solid black;
+  color: #b5ec46;
+  background-color: #434344 ;
+}
+
+.middle { 
+  transition: 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5rem;
+ }
+
+ .card:hover .image {
+  opacity: 0.3;
+ }
+.card:hover .middle {
+  opacity: 1;
+}
+
+.middle:hover {
+  cursor:pointer; 
+  color: #b5ec46;
+}
+
+.card p{
+transition: 0.2s ease;
+opacity: 1;
+position: absolute;
+bottom: -17px;
+width: 100%;
+text-align: center;
+background-color: rgba(121, 104, 104, 0.5);
+font-size: 1.5rem;
+}
+
+.card:hover p{
+  opacity: 0;
+}
+
+
+
+.projects .gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center ;
+  margin: 0px auto 0px auto;
+}
+
+.projects .card{
+  width: 22%;
+  text-align: center;
+  border: 1px solid black;
+  color: #b5ec46;
+  background-color: #434344 ;
+}
+
+
+
+.categorie-galery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center ;
+  border-radius: 5px;
+ 
+}
+.Categorie-Card{
+  margin: 1.5%;
+  width: 30%;
+  color: #ffffff;
+  padding: 5px;
+  box-shadow: 2px 2px #f5f5f5;
+}
